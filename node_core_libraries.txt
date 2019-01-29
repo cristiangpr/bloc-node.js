@@ -1,0 +1,26 @@
+Exercises
+
+Questions
+
+1. Why is the fs core module important for Node development?
+
+A:  It allows is to access the file system
+
+2. What is the difference between sync and non-sync methods in the fs module?
+
+A: Synchronous, or blocking, means that your code runs in sequential order. The program waits for the line of code to finish executing before moving on to the next line of code.
+
+   Asynchronous, or non-blocking, means your code does not wait for the current line to execute before moving on to run the next line.  
+
+3. Why are modules used?
+
+A:  So we can access external libraries since serve side code doesn't use HTML.
+
+4. Why are libraries such as fs used in Node programming?
+
+A: Libraries in node are called modules. They are used to add methods that we want to use.
+
+
+Code Practice
+
+Create a Github repo called simple-http-node-server. Create an HTTP server on port 3000 with a request handler that creates a file named hello-world.txt. You will be using the fs module to do this. Write the content: "Hello to this great world" to the hello-world.txt file. Please submit your finished code in your submission.
